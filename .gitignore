@@ -1,0 +1,30 @@
+# Arquivos de configuração sensíveis
+.env
+
+# Binários compilados do Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Arquivos de build e cache do Go
+/bin/
+/pkg/
+/dist/
+
+# Arquivos temporários do Go
+*.test
+*.prof
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários do editor ou sistema
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Dependências locais
+/vendor/

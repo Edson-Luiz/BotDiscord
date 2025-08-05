@@ -54,6 +54,8 @@ func main() {
 	dg.Close()
 }
 
+//teste bla
+
 // Função chamada quando uma mensagem é criada
 func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 	// Ignora mensagens do próprio bot
